@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/image1"
+    tools:context=".end">
+
+
+    <TextView
+        android:id="@+id/endTxtView"
+        android:layout_width="match_parent"
+        android:layout_height="144dp"
+        android:layout_marginTop="40dp"
+        android:text="TextView"
+        android:textColor="#3FB584"
+        android:textAlignment="center"
+        android:textSize="30sp" />
+
+    <Button
+        android:id="@+id/btnresult"
+        android:layout_width="match_parent"
+        android:layout_height="78dp"
+        android:layout_marginTop="50dp"
+        android:backgroundTint="#4CA5AF"
+        android:textSize="20sp"
+        android:text="Result" />
+
+    <Button
+        android:id="@+id/btnExit"
+        android:layout_width="match_parent"
+        android:layout_height="73dp"
+        android:layout_marginTop="30dp"
+        android:backgroundTint="#4CA5AF"
+        android:layout_marginBottom="30dp"
+        android:text="Exit" />
+
+    <TextView
+        android:id="@+id/feedbackTextView"
+        android:layout_width="match_parent"
+        android:layout_height="90dp"
+        android:layout_marginTop="30dp"
+        android:textColor="#E02215"
+        android:textAlignment="center"
+        android:textSize="20sp"
+         />
+</LinearLayout>

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/image1"
+    tools:context=".MainActivity">
+    <!-- Welcome TextView to display the welcome message for the users -->
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="285dp"
+        android:layout_height="63dp"
+        android:layout_marginTop="68dp"
+        android:text="Welcome to the Q and A app"
+        android:textAlignment="center"
+        android:textColor="#3FB584"
+        android:textSize="25dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+    <!-- Begin button to start the quiz -->
+    <Button
+        android:id="@+id/btnBegin"
+        android:layout_width="348dp"
+        android:layout_height="64dp"
+        android:layout_marginTop="268dp"
+        android:backgroundTint="#4CA5AF"
+        android:text="Begin"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.492"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+    <!-- Exit button to exit the app -->
+    <Button
+        android:id="@+id/btnExit"
+        android:layout_width="356dp"
+        android:layout_height="62dp"
+        android:layout_marginTop="11dp"
+        android:layout_marginBottom="92dp"
+        android:backgroundTint="#4CA5AF"
+        android:text="Exit"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.488"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnBegin"
+        app:layout_constraintVertical_bias="0.825" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
