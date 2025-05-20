@@ -9,7 +9,7 @@
 - **Subject**: [IMAD5112]
 
 ## Links
-- **GitHub Repository**: [Repository URL]
+- **GitHub Repository**: [https://github.com/VCSTDN2024/imad5112-assignment-2-KhayaNkosi.git]
 - **YouTube Video**:(https://youtu.be/cQKKNmsK7X4)
   
 
