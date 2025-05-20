@@ -5,7 +5,7 @@
 - **Developer**: [Khaya Neo Nkosi]
 - **Student Number**: [ST10472859]
 - **Group**: [Group 1]
-- **Course**: [Higher certificate in Mobile Aplliciantion and web development]
+- **Course**: [Higher certificate in Mobile Application and web development]
 - **Subject**: [IMAD5112]
 
 ## Links
